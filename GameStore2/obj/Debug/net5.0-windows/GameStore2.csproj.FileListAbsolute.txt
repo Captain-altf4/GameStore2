@@ -26,3 +26,5 @@ F:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\GameSt
 F:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\GameStore2.genruntimeconfig.cache
 F:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\Custom Controlls\WindowBorder.g.cs
 F:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\Custom Controlls\WindowBorder.baml
+F:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\Views\RegWIndow.g.cs
+F:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\Views\RegWIndow.baml
