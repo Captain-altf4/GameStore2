@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 F:\Ли Александр\GameStore2\GameStore2\App.xaml
-1-1644662438
+2-2030569506
 
-3564931583
+4715145290
 195-355981000
-Views\MainWindow.xaml;
+Custom Controlls\WindowBorder.xaml;Views\MainWindow.xaml;
 
 False
 

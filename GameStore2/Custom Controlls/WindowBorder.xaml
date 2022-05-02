@@ -1,0 +1,34 @@
+﻿<UserControl x:Class="GameStore2.Custom_Controlls.WindowBorder"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:GameStore2.Custom_Controlls"
+             mc:Ignorable="d" 
+             d:DesignHeight="35" 
+             d:DesignWidth="400"
+             Background="White" MouseDown="UserControl_MouseDown">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300*"/>
+            <ColumnDefinition Width="40*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="40*"/>
+            <ColumnDefinition Width="5*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="b_Minimize" 
+                Content="_"
+                Grid.Column="1" 
+                HorizontalAlignment="Center"
+                FontSize="12"
+                Cursor="Hand" Click="b_Minimize_Click"/>
+        <Button x:Name="b_Close"
+                Content="X"  
+                Grid.Column="3" 
+                HorizontalAlignment="Center"
+                FontSize="12"
+                Cursor="Hand" 
+                Click="b_Close_Click"/>
+    </Grid>
+</UserControl>

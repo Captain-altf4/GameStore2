@@ -9,27 +9,35 @@
         Title="MainWindow" 
         Height="400"
         Width="400"
-        WindowStartupLocation="CenterScreen">
-    <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="30*"/>
-            <ColumnDefinition Width="60*"/>
-            <ColumnDefinition Width="30*"/>
-            <ColumnDefinition Width="60*"/>
-            <ColumnDefinition Width="30*"/>
-        </Grid.ColumnDefinitions>
+        WindowStartupLocation="CenterScreen"
+        AllowsTransparency="True"
+        WindowStyle="None">
+    <Grid x:Name="MainGrid">
         <Grid.RowDefinitions>
-            <RowDefinition Height="40*"/>
-            <RowDefinition Height="40*"/>
-            <RowDefinition Height="40*"/>
-            <RowDefinition Height="30*"/>
-            <RowDefinition Height="30*"/>
-            <RowDefinition Height="30*"/>
-            <RowDefinition Height="40*"/>
-            <RowDefinition Height="30*"/>
-            <RowDefinition Height="30*"/>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <Label x:Name="l_Welcome"
+        <Grid x:Name="ContentGrid"
+              Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="30*"/>
+                <ColumnDefinition Width="60*"/>
+                <ColumnDefinition Width="30*"/>
+                <ColumnDefinition Width="60*"/>
+                <ColumnDefinition Width="30*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40*"/>
+                <RowDefinition Height="40*"/>
+                <RowDefinition Height="40*"/>
+                <RowDefinition Height="30*"/>
+                <RowDefinition Height="30*"/>
+                <RowDefinition Height="30*"/>
+                <RowDefinition Height="40*"/>
+                <RowDefinition Height="30*"/>
+                <RowDefinition Height="30*"/>
+            </Grid.RowDefinitions>
+            <Label x:Name="l_Welcome"
                Grid.Column="1" 
                Grid.ColumnSpan="3"
                Grid.Row="1" 
@@ -38,7 +46,7 @@
                HorizontalContentAlignment="Center"
                Content="Добро пожаловать!"
                FontSize="20"/>
-        <TextBox x:Name="tb_Login"
+            <TextBox x:Name="tb_Login"
                  Grid.Column="1" 
                  Grid.ColumnSpan="3" 
                  Grid.Row="3"
@@ -47,7 +55,7 @@
                  materialDesign:TextFieldAssist.UnderlineBrush="#FF212121" 
                  FontSize="16"
                  Width="280"/>
-        <PasswordBox x:Name="pb_Password"
+            <PasswordBox x:Name="pb_Password"
                      Grid.Column="1" 
                      Grid.ColumnSpan="3"
                      Grid.Row="5"
@@ -56,7 +64,7 @@
                      materialDesign:TextFieldAssist.UnderlineBrush="#FF212121" 
                      FontSize="16"
                      Width="280"/>
-        <Button x:Name="b_Reg"
+            <Button x:Name="b_Reg"
                 Content="РЕГИСТРАЦИЯ" 
                 Grid.Column="1" 
                 HorizontalAlignment="Center"
@@ -65,7 +73,7 @@
                 Cursor="Hand"
                 FontSize="11"
                 Grid.Row="7"/>
-        <Button x:Name="b_Login"
+            <Button x:Name="b_Login"
                 Content="ВОЙТИ" 
                 Grid.Column="3" 
                 Grid.Row="7"
@@ -75,6 +83,6 @@
                 Cursor="Hand"
                 FontSize="11"
                 Width="110"/>
-
+        </Grid>
     </Grid>
 </Window>
