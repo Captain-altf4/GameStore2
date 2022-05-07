@@ -1,6 +1,7 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
 using GameStore2.Custom_Controlls;
+using GameStore2.Models;
 
 namespace GameStore2
 {
