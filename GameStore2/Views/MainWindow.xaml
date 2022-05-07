@@ -72,7 +72,8 @@
                 BorderBrush="#FF212121"
                 Cursor="Hand"
                 FontSize="11"
-                Grid.Row="7"/>
+                Grid.Row="7"
+                Command="{Binding ChangeToRegWindow}"/>
             <Button x:Name="b_Login"
                 Content="ВОЙТИ" 
                 Grid.Column="3" 

@@ -1,9 +1,5 @@
 ﻿using GameStore2.Commands;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace GameStore2.ViewModels
 {
@@ -17,7 +13,8 @@ namespace GameStore2.ViewModels
         {
             get
             {
-                //Если Null, тогда выполнится код ниже, если не Null, то возьмёт переменную как есть
+                //Если Null, тогда выполнится код ниже
+                //Если не Null, то возьмёт переменную как есть
                 return changeToRegWindow ??
                     (changeToRegWindow = new BaseCommands(obj =>
                     {

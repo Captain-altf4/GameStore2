@@ -95,7 +95,7 @@
                 Cursor="Hand"
                 FontSize="11"
                 Grid.Row="11"/>
-            <Button x:Name="b_Login"
+            <Button x:Name="b_Join"
                 Content="ВОЙТИ" 
                 Grid.Column="3" 
                 Grid.Row="11"
@@ -104,7 +104,8 @@
                 BorderBrush="#FF212121"
                 Cursor="Hand"
                 FontSize="11"
-                Width="110"/>
+                Width="110"
+                Command="{Binding ChangeToMainWindow}"/>
         </Grid>
     </Grid>
 </Window>

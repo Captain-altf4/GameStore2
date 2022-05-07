@@ -15,9 +15,13 @@ namespace GameStore2
             var window = new MainWindow();
             var viewModel = new MainWindowModel();
             window.DataContext = viewModel;
-            viewModel.EventCloseWindow += (sender, args) => { window.Close(); };
+
+            //Создаётся делегат, внутрь которого подаются переменные
+            //В него кладётся функция закрытия окна, которая вызывается в VM
+            viewModel.EventCloseWindow += (sender, args) => { window.Close(); }; 
             window.Show();
         }
+
         public static void ShowRegWindow()
         {
             var window = new RegWindow();
