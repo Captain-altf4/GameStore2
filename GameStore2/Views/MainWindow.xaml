@@ -15,7 +15,7 @@
     <Grid x:Name="MainGrid">
         <Grid.RowDefinitions>
             <RowDefinition Height="35"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
         <Grid x:Name="ContentGrid"
               Grid.Row="1">

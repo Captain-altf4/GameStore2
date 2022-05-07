@@ -28,3 +28,32 @@ F:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\Custom
 F:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\Custom Controlls\WindowBorder.baml
 F:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\Views\RegWIndow.g.cs
 F:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\Views\RegWIndow.baml
+E:\Ли Александр\GameStore2\GameStore2\bin\Debug\net5.0-windows\GameStore2.exe
+E:\Ли Александр\GameStore2\GameStore2\bin\Debug\net5.0-windows\GameStore2.deps.json
+E:\Ли Александр\GameStore2\GameStore2\bin\Debug\net5.0-windows\GameStore2.runtimeconfig.json
+E:\Ли Александр\GameStore2\GameStore2\bin\Debug\net5.0-windows\GameStore2.runtimeconfig.dev.json
+E:\Ли Александр\GameStore2\GameStore2\bin\Debug\net5.0-windows\GameStore2.dll
+E:\Ли Александр\GameStore2\GameStore2\bin\Debug\net5.0-windows\ref\GameStore2.dll
+E:\Ли Александр\GameStore2\GameStore2\bin\Debug\net5.0-windows\GameStore2.pdb
+E:\Ли Александр\GameStore2\GameStore2\bin\Debug\net5.0-windows\MaterialDesignColors.dll
+E:\Ли Александр\GameStore2\GameStore2\bin\Debug\net5.0-windows\MaterialDesignThemes.Wpf.dll
+E:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\GameStore2.csproj.AssemblyReference.cache
+E:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\Custom Controlls\WindowBorder.g.cs
+E:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\Views\MainWindow.g.cs
+E:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\Views\RegWIndow.g.cs
+E:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\App.g.cs
+E:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\GameStore2_MarkupCompile.cache
+E:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\GameStore2_MarkupCompile.lref
+E:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\App.baml
+E:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\Custom Controlls\WindowBorder.baml
+E:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\Views\MainWindow.baml
+E:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\Views\RegWIndow.baml
+E:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\GameStore2.g.resources
+E:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\GameStore2.GeneratedMSBuildEditorConfig.editorconfig
+E:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\GameStore2.AssemblyInfoInputs.cache
+E:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\GameStore2.AssemblyInfo.cs
+E:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\GameStore2.csproj.CoreCompileInputs.cache
+E:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\GameStore2.dll
+E:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\ref\GameStore2.dll
+E:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\GameStore2.pdb
+E:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\GameStore2.genruntimeconfig.cache
