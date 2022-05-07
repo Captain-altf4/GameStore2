@@ -32,5 +32,14 @@ namespace GameStore2.Models
             Image = DataTransform.JpgToByte(image);
             Users = new List<User>();
         }
+
+        public Game(int id, string name, decimal price)
+        {
+            Id = id;
+            Name = name;
+            Price = price;
+            Image = new byte[0];
+            Users = new List<User>();
+        }
     }
 }
