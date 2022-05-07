@@ -1,5 +1,5 @@
-﻿using GameStore2.Commands;
-using System;
+﻿using System;
+using GameStore2.Commands;
 
 namespace GameStore2.ViewModels
 {
