@@ -21,7 +21,7 @@ namespace GameStore2
             {
                 using(DBContext db = new())
                 {
-                    db.Database.Initialize(true);
+                    db.Database.Initialize(false);
                     // Код для удаления базы данных
                     /*foreach (var u in db.User)
                     {
@@ -46,6 +46,7 @@ namespace GameStore2
                         db.User.Add(qwerty123);
                         User Anarch_1st = new User(1, "Anarch_1st", "shurik.li.2006@mail.ru", "Bsp3K91F", 100);
                         db.User.Add(Anarch_1st);
+                        db.SaveChanges();
                         MessageBox.Show("Инициализации БД прошла успешно!");
                     }
                 }
