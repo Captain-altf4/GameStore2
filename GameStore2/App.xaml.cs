@@ -34,12 +34,12 @@ namespace GameStore2
                     db.SaveChanges();*/
                     if (db.User.Count() == 0 && db.Game.Count() == 0)
                     {
-                        string imagePath = @"Images/Games";
-                        Game CSGO = new Game(1, "Counter Strike: Global Offensive", 1200);
+                        string imagePath = @"Images/Games/";
+                        Game CSGO = new Game(1, "Counter Strike: Global Offensive", 1200, imagePath + "CSGO.png");
                         db.Game.Add(CSGO);
-                        Game Cyberpunk = new Game(2, "Cyberpunk 2077", 1500);
+                        Game Cyberpunk = new Game(2, "Cyberpunk 2077", 1500, imagePath + "Cyberpunk.jpg");
                         db.Game.Add(Cyberpunk);
-                        Game Dishonored = new Game(3, "Dishonored", 400);
+                        Game Dishonored = new Game(3, "Dishonored", 400, imagePath + "Dishonored.jpg");
                         db.Game.Add(Dishonored);
 
                         User qwerty123 = new User(1, "qwerty123", "qwerty123@mail.ru", "qwerty123", 1000);
