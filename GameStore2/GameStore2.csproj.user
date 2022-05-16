@@ -10,7 +10,13 @@
     <Compile Update="Custom Controlls\WindowBorder.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Custom Controlls\WindowBorderMaximizeBox.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\RegWIndow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\StoreWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -18,10 +24,16 @@
     <Page Update="Custom Controlls\WindowBorder.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Custom Controlls\WindowBorderMaximizeBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\RegWIndow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\StoreWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
