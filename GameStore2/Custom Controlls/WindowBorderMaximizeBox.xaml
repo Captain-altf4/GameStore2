@@ -31,12 +31,16 @@
                 Content="&#128912;" 
                 Grid.Column="3" 
                 HorizontalAlignment="Center"
+                Background="#FF212121"
+                BorderBrush="#FF212121"
                 Cursor="Hand" 
                 Click="b_MaximizeBox_Click"/>
         <Button x:Name="b_Close" 
                 Content="X" 
                 Grid.Column="5" 
                 HorizontalAlignment="Center"
+                Background="#FF212121"
+                BorderBrush="#FF212121"
                 Cursor="Hand" 
                 Click="b_Close_Click"/>
 

@@ -10,7 +10,7 @@ namespace GameStore2
     {
         protected override void OnStartup(StartupEventArgs e)
         {
-            WindowsBuilder.ShowMainWindow();
+            WindowsBuilder.ShowStoreWindow();
             InitDB();
             base.OnStartup(e);
         }

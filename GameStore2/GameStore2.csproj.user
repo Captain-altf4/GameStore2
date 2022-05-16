@@ -13,7 +13,7 @@
     <Compile Update="Custom Controlls\WindowBorderMaximizeBox.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\RegWIndow.xaml.cs">
+    <Compile Update="Views\RegWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\StoreWindow.xaml.cs">
@@ -30,7 +30,7 @@
     <Page Update="Views\MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\RegWIndow.xaml">
+    <Page Update="Views\RegWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\StoreWindow.xaml">

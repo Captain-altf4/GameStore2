@@ -5,13 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GameStore2.Views"
         mc:Ignorable="d"
-        Title="StoreWindow" Height="450" Width="800">
+        Title="StoreWindow" 
+        Height="450" 
+        Width="800" 
+        WindowStartupLocation="CenterScreen"
+        AllowsTransparency="True" 
+        WindowStyle="None">
     <Grid x:Name="MainGrid">
         <Grid.RowDefinitions>
             <RowDefinition Height="35"/>
-            <RowDefinition Height="1*"/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        
         <Grid x:Name="ContentGrid"
               Grid.Row="1">
             <Grid.ColumnDefinitions>
@@ -29,7 +33,27 @@
                 <RowDefinition Height="380*"/>
                 <RowDefinition Height="20*"/>
             </Grid.RowDefinitions>
-
+            <Button x:Name="b_Library" 
+                    Content="Библиотека" 
+                    Grid.Column="1" 
+                    Grid.Row="1"
+                    Background="#FF212121"
+                    BorderBrush="#FF212121"
+                    Cursor="Hand"/>
+            <Button x:Name="b_Friends" 
+                    Content="Друзья" 
+                    Grid.Column="3" 
+                    Grid.Row="1"
+                    Background="#FF212121"
+                    BorderBrush="#FF212121"
+                    Cursor="Hand"/>
+            <Button x:Name="b_Profile" 
+                    Content="Профиль" 
+                    Grid.Column="5" 
+                    Grid.Row="1"
+                    Background="#FF212121"
+                    BorderBrush="#FF212121"
+                    Cursor="Hand"/>
         </Grid>
     </Grid>
 </Window>

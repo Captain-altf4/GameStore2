@@ -6,7 +6,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GameStore2.Views"
         mc:Ignorable="d"
-        Title="RegWIndow"
+        Title="RegWindow"
         Height="400"
         Width="400"
         WindowStartupLocation="CenterScreen"
@@ -59,7 +59,8 @@
                  materialDesign:TextFieldAssist.UnderlineBrush="#FF212121" 
                  FontSize="16"
                  Width="280"
-                 Text="{Binding UserLogin}" Cursor="Arrow" TextChanged="tb_Login_TextChanged"/>
+                 Text="{Binding UserLogin}" 
+                 Cursor="Arrow" TextChanged="tb_Login_TextChanged"/>
             <TextBox x:Name="tb_Mail"
                  Grid.Column="1" 
                  Grid.ColumnSpan="3" 
@@ -69,7 +70,8 @@
                  materialDesign:TextFieldAssist.UnderlineBrush="#FF212121" 
                  FontSize="16"
                  Width="280"
-                 Text="{Binding UserMail}" TextChanged="tb_Mail_TextChanged"/>
+                 Text="{Binding UserMail}" 
+                 TextChanged="tb_Mail_TextChanged"/>
             <PasswordBox x:Name="pb_Password1"
                      Grid.Column="1" 
                      Grid.ColumnSpan="3"
@@ -78,7 +80,8 @@
                      materialDesign:HintAssist.Hint="Введите пароль"
                      materialDesign:TextFieldAssist.UnderlineBrush="#FF212121" 
                      FontSize="16"
-                     Width="280" PasswordChanged="pb_Password1_PasswordChanged"/>
+                     Width="280" 
+                     PasswordChanged="pb_Password1_PasswordChanged"/>
             <PasswordBox x:Name="pb_Password2"
                      Grid.Column="1" 
                      Grid.ColumnSpan="3"
@@ -87,7 +90,8 @@
                      materialDesign:HintAssist.Hint="Повторите пароль"
                      materialDesign:TextFieldAssist.UnderlineBrush="#FF212121" 
                      FontSize="16"
-                     Width="280" PasswordChanged="pb_Password2_PasswordChanged"/>
+                     Width="280" 
+                     PasswordChanged="pb_Password2_PasswordChanged"/>
             <Button x:Name="b_Reg"
                 Content="РЕГИСТРАЦИЯ" 
                 Grid.Column="1" 

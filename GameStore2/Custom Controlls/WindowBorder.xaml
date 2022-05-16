@@ -23,6 +23,8 @@
                 Grid.Column="1" 
                 HorizontalAlignment="Center"
                 FontSize="12"
+                Background="#FF212121"
+                BorderBrush="#FF212121" 
                 Cursor="Hand" 
                 Click="b_Minimize_Click"/>
         <Button x:Name="b_Close"
@@ -30,6 +32,8 @@
                 Grid.Column="3" 
                 HorizontalAlignment="Center"
                 FontSize="12"
+                Background="#FF212121" 
+                BorderBrush="#FF212121"
                 Cursor="Hand" 
                 Click="b_Close_Click"/>
     </Grid>

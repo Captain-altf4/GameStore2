@@ -109,3 +109,48 @@ D:\Programs\C#\GameStore2\GameStore2\obj\Debug\net5.0-windows\GameStore2.dll
 D:\Programs\C#\GameStore2\GameStore2\obj\Debug\net5.0-windows\ref\GameStore2.dll
 D:\Programs\C#\GameStore2\GameStore2\obj\Debug\net5.0-windows\GameStore2.pdb
 D:\Programs\C#\GameStore2\GameStore2\obj\Debug\net5.0-windows\GameStore2.genruntimeconfig.cache
+D:\Ли Александр\GameStore2\GameStore2\bin\Debug\net5.0-windows\GameStore2.exe
+D:\Ли Александр\GameStore2\GameStore2\bin\Debug\net5.0-windows\Images\Games\CSGO.png
+D:\Ли Александр\GameStore2\GameStore2\bin\Debug\net5.0-windows\Images\Games\Cyberpunk.jpg
+D:\Ли Александр\GameStore2\GameStore2\bin\Debug\net5.0-windows\Images\Games\Dishonored.jpg
+D:\Ли Александр\GameStore2\GameStore2\bin\Debug\net5.0-windows\GameStore2.deps.json
+D:\Ли Александр\GameStore2\GameStore2\bin\Debug\net5.0-windows\GameStore2.runtimeconfig.json
+D:\Ли Александр\GameStore2\GameStore2\bin\Debug\net5.0-windows\GameStore2.runtimeconfig.dev.json
+D:\Ли Александр\GameStore2\GameStore2\bin\Debug\net5.0-windows\GameStore2.dll
+D:\Ли Александр\GameStore2\GameStore2\bin\Debug\net5.0-windows\ref\GameStore2.dll
+D:\Ли Александр\GameStore2\GameStore2\bin\Debug\net5.0-windows\GameStore2.pdb
+D:\Ли Александр\GameStore2\GameStore2\bin\Debug\net5.0-windows\EntityFramework.SqlServer.dll
+D:\Ли Александр\GameStore2\GameStore2\bin\Debug\net5.0-windows\EntityFramework.dll
+D:\Ли Александр\GameStore2\GameStore2\bin\Debug\net5.0-windows\MaterialDesignColors.dll
+D:\Ли Александр\GameStore2\GameStore2\bin\Debug\net5.0-windows\MaterialDesignThemes.Wpf.dll
+D:\Ли Александр\GameStore2\GameStore2\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+D:\Ли Александр\GameStore2\GameStore2\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+D:\Ли Александр\GameStore2\GameStore2\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+D:\Ли Александр\GameStore2\GameStore2\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+D:\Ли Александр\GameStore2\GameStore2\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Ли Александр\GameStore2\GameStore2\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\GameStore2.csproj.AssemblyReference.cache
+D:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\Custom Controlls\WindowBorder.g.cs
+D:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\Custom Controlls\WindowBorderMaximizeBox.g.cs
+D:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\Views\MainWindow.g.cs
+D:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\Views\RegWIndow.g.cs
+D:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\Views\StoreWindow.g.cs
+D:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\App.g.cs
+D:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\GameStore2_MarkupCompile.cache
+D:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\GameStore2_MarkupCompile.lref
+D:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\App.baml
+D:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\Custom Controlls\WindowBorder.baml
+D:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\Custom Controlls\WindowBorderMaximizeBox.baml
+D:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\Views\MainWindow.baml
+D:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\Views\RegWIndow.baml
+D:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\Views\StoreWindow.baml
+D:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\GameStore2.g.resources
+D:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\GameStore2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\GameStore2.AssemblyInfoInputs.cache
+D:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\GameStore2.AssemblyInfo.cs
+D:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\GameStore2.csproj.CoreCompileInputs.cache
+D:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\GameStore2.csproj.CopyComplete
+D:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\GameStore2.dll
+D:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\ref\GameStore2.dll
+D:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\GameStore2.pdb
+D:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\GameStore2.genruntimeconfig.cache

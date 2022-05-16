@@ -15,7 +15,6 @@ namespace GameStore2.ViewModels
         public event EventHandler EventCloseWindow;
 
         private BaseCommands changeToMainWindow;
-
         public BaseCommands ChangeToMainWindow
         {
             get
@@ -29,8 +28,7 @@ namespace GameStore2.ViewModels
             }
         }
 
-        string userLogin;
-
+        private string userLogin;
         public string UserLogin
         {
             get { return userLogin; }
@@ -41,8 +39,7 @@ namespace GameStore2.ViewModels
             }
         }
 
-        string userMail;
-
+        private string userMail;
         public string UserMail
         {
             get { return userMail; }
@@ -53,8 +50,29 @@ namespace GameStore2.ViewModels
             }
         }
 
-        private BaseCommands createNewUser;
+        /*private PasswordBox password1;
+        public PasswordBox Password1
+        {
+            get { return password1; }
+            set
+            {
+                password1 = value;
+                OnPropertyChanged("Password1");
+            }
+        }
 
+        private PasswordBox password2;
+        public PasswordBox Password2
+        {
+            get { return password2; }
+            set
+            {
+                password2 = value;
+                OnPropertyChanged("Password2");
+            }
+        }
+        */
+        private BaseCommands createNewUser;
         public BaseCommands CreateNewUser
         {
             get
@@ -68,26 +86,22 @@ namespace GameStore2.ViewModels
                         string? password = pb.Password;
                         User? user = db.User.Where(u => u.Login == userLogin).FirstOrDefault();
 
-                        if (user == null)
-                        {
-                            if (LoginData.CheckLogin(userLogin) &&
-                            LoginData.CheckMail(userMail) &&
-                            LoginData.CheckPassword(password))
-                            {
-                                if (password != null)
-                                {
-                                    int maxId = db.User.Max(u => u.Id);
-                                    User newUser = new User(maxId + 1, userLogin, userMail, password, 0);
-                                    db.User.Add(newUser);
-                                    db.SaveChanges();
-                                    MessageBox.Show("Пользователь cоздан!");
-                                }
-                            }
-                            else
-                                MessageBox.Show("Данные введены неверно!");
-                        }
-                        else
+                        if (!LoginData.CheckLogin(userLogin) ||
+                        !LoginData.CheckMail(userMail) ||
+                        !LoginData.CheckPassword(password))
+                            MessageBox.Show("Данные введены неверно!");
+
+                        if (user != null)
                             MessageBox.Show("Такой пользователь уже существует!");
+
+                        if (password != null)
+                        {
+                            int maxId = db.User.Max(u => u.Id);
+                            User newUser = new User(maxId + 1, userLogin, userMail, password, 0);
+                            db.User.Add(newUser);
+                            db.SaveChanges();
+                            MessageBox.Show("Пользователь cоздан!");
+                        }
                     }
                 }));
             }
