@@ -80,7 +80,7 @@ namespace GameStore2.Custom_Controlls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/GameStore2;component/custom%20controlls/windowbordermaximizebox.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/GameStore2;V1.0.0.0;component/custom%20controlls/windowbordermaximizebox.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Custom Controlls\WindowBorderMaximizeBox.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

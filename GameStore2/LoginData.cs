@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace GameStore2
 {
-    class LoginData
+    public static class LoginData
     {
         public struct CurrentUser
         {
-            public int Id { get; set; }
-            public string Login { get; set; }
-            public string Mail { get; set; }
+            public static int Id { get; set; }
+            public static string Login { get; set; }
+            public static string Mail { get; set; }
         }
 
         public static bool CheckLogin(string userLogin)
