@@ -105,7 +105,6 @@ D:\Programs\C#\GameStore2\GameStore2\obj\Debug\net5.0-windows\GameStore2.Generat
 D:\Programs\C#\GameStore2\GameStore2\obj\Debug\net5.0-windows\GameStore2.AssemblyInfoInputs.cache
 D:\Programs\C#\GameStore2\GameStore2\obj\Debug\net5.0-windows\GameStore2.AssemblyInfo.cs
 D:\Programs\C#\GameStore2\GameStore2\obj\Debug\net5.0-windows\GameStore2.csproj.CoreCompileInputs.cache
-D:\Programs\C#\GameStore2\GameStore2\obj\Debug\net5.0-windows\GameStore2.csproj.CopyComplete
 D:\Programs\C#\GameStore2\GameStore2\obj\Debug\net5.0-windows\GameStore2.dll
 D:\Programs\C#\GameStore2\GameStore2\obj\Debug\net5.0-windows\ref\GameStore2.dll
 D:\Programs\C#\GameStore2\GameStore2\obj\Debug\net5.0-windows\GameStore2.pdb

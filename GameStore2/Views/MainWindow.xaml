@@ -54,7 +54,9 @@
                  materialDesign:HintAssist.Hint="Введите логин"
                  materialDesign:TextFieldAssist.UnderlineBrush="#FF212121" 
                  FontSize="16"
-                 Width="280"/>
+                 Width="280" 
+                 Cursor="Arrow"
+                 Text="{Binding CurrentLogin}"/>
             <PasswordBox x:Name="pb_Password"
                      Grid.Column="1" 
                      Grid.ColumnSpan="3"
@@ -83,7 +85,9 @@
                 BorderBrush="#FF212121"
                 Cursor="Hand"
                 FontSize="11"
-                Width="110"/>
+                Width="110"
+                Command="{Binding LoginUser}"
+                CommandParameter="{Binding ElementName=pb_Password}"/>
         </Grid>
     </Grid>
 </Window>

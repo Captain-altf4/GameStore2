@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace GameStore2.ViewModels
 {
-    class StoreWIndowModel
+    class StoreWindowModel
     {
+        public event EventHandler EventCloseWindow;
+        public void CloseWindow() => EventCloseWindow?.Invoke(this, EventArgs.Empty);
     }
 }

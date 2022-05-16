@@ -25,5 +25,14 @@ namespace GameStore2
             viewModel.EventCloseWindow += (sender, args) => { window.Close(); };
             window.Show();
         }
+
+        public static void ShowStoreWindow()
+        {
+            var window = new StoreWindow();
+            var viewModel = new StoreWindowModel();
+            window.DataContext = viewModel;
+            viewModel.EventCloseWindow += (sender, args) => { window.Close(); };
+            window.Show();
+        }
     }
 }

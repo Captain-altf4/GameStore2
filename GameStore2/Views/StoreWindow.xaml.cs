@@ -1,27 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using GameStore2.Custom_Controlls;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace GameStore2.Views
 {
-    /// <summary>
-    /// Логика взаимодействия для StoreWindow.xaml
-    /// </summary>
     public partial class StoreWindow : Window
     {
         public StoreWindow()
         {
             InitializeComponent();
+            WindowBorderMaximizeBox windowborder = new WindowBorderMaximizeBox(this);
+            windowborder.SetValue(Grid.RowProperty, 0);
+            MainGrid.Children.Add(windowborder);
         }
     }
 }
