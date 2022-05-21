@@ -1,17 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using GameStore2.ModelContext;
 using GameStore2.Models;
 
@@ -22,6 +13,7 @@ namespace GameStore2.Views
         public LibraryControl()
         {
             InitializeComponent();
+            FillGrid();
         }
 
         void FillGrid()
@@ -29,9 +21,8 @@ namespace GameStore2.Views
             using (DBContext db = new DBContext())
             {
                 List<ColumnDefinition> columns = new List<ColumnDefinition>();
-                int gamesCount = db.Game.Count();
-                int rowsCount = (gamesCount + 1) / 2;
                 int columnsCount = (int)this.Width / 220;
+
                 for (int i = 0; i < columnsCount; i++)
                 {
                     columns.Add(new ColumnDefinition());
@@ -42,15 +33,33 @@ namespace GameStore2.Views
                 columns.Add(new ColumnDefinition());
                 columns[columns.Count - 1].Width = new GridLength(40, GridUnitType.Star);
 
+
+                List<RowDefinition> rows = new List<RowDefinition>();
+                int rowsCount = db.Game.Count() / columnsCount + 1;
+
+                for (int i = 0; i < rowsCount; i++)
+                {
+                    rows.Add(new RowDefinition());
+                    rows[i * 2].Height = new GridLength(30, GridUnitType.Star);
+                    rows.Add(new RowDefinition());
+                    rows[i * 2 + 1].Height = new GridLength(130);
+                }
+                columns.Add(new ColumnDefinition());
+                columns[columns.Count - 1].Width = new GridLength(30, GridUnitType.Star);
+
                 for (int i = 0; i < columns.Count; i++)
                 {
                     MainGrid.ColumnDefinitions.Add(columns[i]);
                 }
+                for (int i = 0; i < rows.Count; i++)
+                {
+                    MainGrid.RowDefinitions.Add(rows[i]);
+                }
 
                 int columnNum = 1;
                 int rowNum = 1;
-                int index = 0;
-                foreach (Game game in db.Game)
+                User currentUser = db.User.Where(u => u.Login == LoginData.CurrentUser.Login).FirstOrDefault();
+                foreach (Game game in currentUser.Games)
                 {
                     StackPanel sp = new StackPanel();
                     sp.SetValue(Grid.RowProperty, rowNum);
@@ -64,19 +73,22 @@ namespace GameStore2.Views
                     name.HorizontalAlignment = HorizontalAlignment.Center;
                     name.Content = game.Name;
 
-                    Image currentImage = new Image();
+                    Image image = new Image();
                     BitmapImage logo = DataTransform.ByteToJpg(game.Image);
-                    currentImage.Source = logo;
-                    columnNum = (columnNum == 1) ? 3 : 1; // Условие, ?, что возвращается если да, что возвращается если нет
+                    image.Source = logo;
 
-                    sp.Children.Add(currentImage);
+                    if (columnNum + 2 >= columnsCount * 2)
+                    {
+                        columnNum = 1;
+                        rowNum += 2;
+                    }
+                    else
+                        columnNum += 2;
+
+                    sp.Children.Add(image);
                     sp.Children.Add(name);
                     sp.Children.Add(price);
                     MainGrid.Children.Add(sp);
-
-                    if ((index + 1) % 2 == 0)
-                        rowNum += 2;
-                    index++;
                 }
             }
         }

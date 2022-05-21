@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 D:\Ли Александр\GameStore2\GameStore2\App.xaml
-51245082606
+61292662838
 
-171181271245
+181428458041
 198-420227473
-Custom Controlls\WindowBorder.xaml;Custom Controlls\WindowBorderMaximizeBox.xaml;Views\MainWindow.xaml;Views\RegWIndow.xaml;Views\StoreWindow.xaml;
+Custom Controlls\WindowBorder.xaml;Custom Controlls\WindowBorderMaximizeBox.xaml;Views\LibraryControl.xaml;Views\MainWindow.xaml;Views\RegWindow.xaml;Views\StoreWindow.xaml;
 
 False
 

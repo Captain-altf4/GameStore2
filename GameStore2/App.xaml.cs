@@ -10,7 +10,7 @@ namespace GameStore2
     {
         protected override void OnStartup(StartupEventArgs e)
         {
-            WindowsBuilder.ShowStoreWindow();
+            WindowsBuilder.ShowMainWindow();
             InitDB();
             base.OnStartup(e);
         }
@@ -46,6 +46,11 @@ namespace GameStore2
                         db.User.Add(qwerty123);
                         User Anarch_1st = new User(1, "Anarch_1st", "shurik.li.2006@mail.ru", "Bsp3K91F", 100);
                         db.User.Add(Anarch_1st);
+
+                        qwerty123.Games.Add(CSGO);
+                        qwerty123.Games.Add(Cyberpunk);
+                        qwerty123.Games.Add(Dishonored);
+
                         db.SaveChanges();
                         MessageBox.Show("Инициализации БД прошла успешно!");
                     }

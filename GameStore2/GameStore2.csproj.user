@@ -13,6 +13,9 @@
     <Compile Update="Custom Controlls\WindowBorderMaximizeBox.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\LibraryControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\RegWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -25,6 +28,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Custom Controlls\WindowBorderMaximizeBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\LibraryControl.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\MainWindow.xaml">

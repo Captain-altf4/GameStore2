@@ -7,13 +7,13 @@ using System.Windows.Media.Imaging;
 
 namespace GameStore2.Models
 {
-    class Game
+    public class Game
     {
         public int Id { get; private set; }
         public string Name { get; set; }
         public decimal Price { get; set; }
         public byte[] Image { get; set; }
-        public List<User> Users { get; set; }
+        public virtual List<User> Users { get; set; }
         public Game()
         {
             Id = 0;

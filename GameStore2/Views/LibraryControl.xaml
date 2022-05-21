@@ -5,15 +5,14 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:GameStore2.Views"
              mc:Ignorable="d" 
-             d:DesignHeight="450" 
-             d:DesignWidth="800"
-             Background="White">
+             Height="450"
+             Width="800"
+             Background="Green">
     <Grid x:Name="MainGrid">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="1*"/>
-            <ColumnDefinition Width="220"/>
-            <ColumnDefinition Width="1*"/>
-            <ColumnDefinition Width="10*"/>
         </Grid.ColumnDefinitions>
+        
+        <Grid.RowDefinitions>
+        </Grid.RowDefinitions>
     </Grid>
 </UserControl>

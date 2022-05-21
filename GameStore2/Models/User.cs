@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GameStore2.Models
 {
-    class User
+    public class User
     {
         public int Id { get; private set; }
         public string Login { get; set; }
@@ -14,7 +14,7 @@ namespace GameStore2.Models
         public string Password { get; set; }
         public byte[] Avatar { get; set; }
         public decimal Balance { get; set; }
-        public List<Game> Games { get; set; }
+        public virtual List<Game> Games { get; set; }
 
         public User()
         {

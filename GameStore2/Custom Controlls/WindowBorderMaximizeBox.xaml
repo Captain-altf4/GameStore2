@@ -25,6 +25,8 @@
                 Content="_" 
                 Grid.Column="1" 
                 HorizontalAlignment="Center"
+                Background="#FF212121"
+                BorderBrush="#FF212121"
                 Cursor="Hand" 
                 Click="b_MinimizeBox_Click"/>
         <Button x:Name="b_MaximizeBox" 

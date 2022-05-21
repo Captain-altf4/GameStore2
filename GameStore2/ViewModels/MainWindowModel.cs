@@ -6,6 +6,7 @@ using System.Windows;
 using System.Windows.Controls;
 using GameStore2.Commands;
 using GameStore2.ModelContext;
+using GameStore2.Models;
 
 namespace GameStore2.ViewModels
 {
@@ -69,7 +70,6 @@ namespace GameStore2.ViewModels
                 }));
             }
         }
-
 
         public event PropertyChangedEventHandler PropertyChanged;
 
