@@ -20,6 +20,7 @@ namespace GameStore2.Views
         {
             using (DBContext db = new DBContext())
             {
+                //Creating Columns
                 List<ColumnDefinition> columns = new List<ColumnDefinition>();
                 int columnsCount = (int)this.Width / 220;
 
@@ -33,7 +34,7 @@ namespace GameStore2.Views
                 columns.Add(new ColumnDefinition());
                 columns[columns.Count - 1].Width = new GridLength(40, GridUnitType.Star);
 
-
+                //Creating Rows
                 List<RowDefinition> rows = new List<RowDefinition>();
                 int rowsCount = db.Game.Count() / columnsCount + 1;
 
@@ -47,6 +48,7 @@ namespace GameStore2.Views
                 columns.Add(new ColumnDefinition());
                 columns[columns.Count - 1].Width = new GridLength(30, GridUnitType.Star);
 
+                //Add Rows & Columns
                 for (int i = 0; i < columns.Count; i++)
                 {
                     MainGrid.ColumnDefinitions.Add(columns[i]);
@@ -56,6 +58,7 @@ namespace GameStore2.Views
                     MainGrid.RowDefinitions.Add(rows[i]);
                 }
 
+                //Add Games in Window
                 int columnNum = 1;
                 int rowNum = 1;
                 User currentUser = db.User.Where(u => u.Login == LoginData.CurrentUser.Login).FirstOrDefault();
@@ -77,6 +80,11 @@ namespace GameStore2.Views
                     BitmapImage logo = DataTransform.ByteToJpg(game.Image);
                     image.Source = logo;
 
+                    sp.Children.Add(image);
+                    sp.Children.Add(name);
+                    sp.Children.Add(price);
+                    MainGrid.Children.Add(sp);
+
                     if (columnNum + 2 >= columnsCount * 2)
                     {
                         columnNum = 1;
@@ -84,11 +92,6 @@ namespace GameStore2.Views
                     }
                     else
                         columnNum += 2;
-
-                    sp.Children.Add(image);
-                    sp.Children.Add(name);
-                    sp.Children.Add(price);
-                    MainGrid.Children.Add(sp);
                 }
             }
         }

@@ -66,7 +66,6 @@ F:\Ли Александр\GameStore2\GameStore2\bin\Debug\net5.0-windows\runtim
 F:\Ли Александр\GameStore2\GameStore2\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 F:\Ли Александр\GameStore2\GameStore2\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\Programs\C#\GameStore2\GameStore2\bin\Debug\net5.0-windows\GameStore2.exe
-D:\Programs\C#\GameStore2\GameStore2\bin\Debug\net5.0-windows\Images\Games\CSGO.png
 D:\Programs\C#\GameStore2\GameStore2\bin\Debug\net5.0-windows\Images\Games\Cyberpunk.jpg
 D:\Programs\C#\GameStore2\GameStore2\bin\Debug\net5.0-windows\Images\Games\Dishonored.jpg
 D:\Programs\C#\GameStore2\GameStore2\bin\Debug\net5.0-windows\GameStore2.deps.json
@@ -158,3 +157,7 @@ D:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\Views\
 D:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\Views\LibraryControl.baml
 D:\Programs\C#\GameStore2\GameStore2\obj\Debug\net5.0-windows\Views\LibraryControl.g.cs
 D:\Programs\C#\GameStore2\GameStore2\obj\Debug\net5.0-windows\Views\LibraryControl.baml
+D:\Programs\C#\GameStore2\GameStore2\bin\Debug\net5.0-windows\Images\Games\CSGO.jpg
+D:\Programs\C#\GameStore2\GameStore2\bin\Debug\net5.0-windows\Images\Games\Dead Cells.jpeg
+D:\Programs\C#\GameStore2\GameStore2\bin\Debug\net5.0-windows\Images\Games\DOOM Eternal.jpg
+D:\Programs\C#\GameStore2\GameStore2\bin\Debug\net5.0-windows\Images\Games\Slay the Spire.jpeg
