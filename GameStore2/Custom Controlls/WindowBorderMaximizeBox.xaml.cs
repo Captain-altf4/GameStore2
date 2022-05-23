@@ -7,6 +7,7 @@ namespace GameStore2.Custom_Controlls
     public partial class WindowBorderMaximizeBox : UserControl
     {
         Window parent;
+        bool maximized = false;
         public WindowBorderMaximizeBox(Window parent)
         {
             this.parent = parent;
@@ -25,7 +26,16 @@ namespace GameStore2.Custom_Controlls
 
         private void b_MaximizeBox_Click(object sender, RoutedEventArgs e)
         {
-            this.parent.WindowState = WindowState.Maximized;
+            if (!maximized)
+            {
+                this.parent.WindowState = WindowState.Maximized;
+                maximized = true;
+            }
+            else
+            {
+                this.parent.WindowState = WindowState.Normal;
+                maximized = false;
+            }
         }
 
         private void b_Close_Click(object sender, RoutedEventArgs e)

@@ -156,3 +156,5 @@ D:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\GameSt
 D:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\GameStore2.genruntimeconfig.cache
 D:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\Views\LibraryControl.g.cs
 D:\Ли Александр\GameStore2\GameStore2\obj\Debug\net5.0-windows\Views\LibraryControl.baml
+D:\Programs\C#\GameStore2\GameStore2\obj\Debug\net5.0-windows\Views\LibraryControl.g.cs
+D:\Programs\C#\GameStore2\GameStore2\obj\Debug\net5.0-windows\Views\LibraryControl.baml
