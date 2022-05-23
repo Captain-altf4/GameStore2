@@ -28,7 +28,7 @@ namespace GameStore2.Models
             Id = id;
             Name = name;
             Price = price;
-            var image = new BitmapImage(new Uri(imagePath, UriKind.Relative));
+            BitmapImage image = new BitmapImage(new Uri(imagePath, UriKind.Relative));
             Image = DataTransform.JpgToByte(image);
             Users = new List<User>();
         }

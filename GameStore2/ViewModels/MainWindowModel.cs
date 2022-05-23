@@ -4,6 +4,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Media.Imaging;
 using GameStore2.Commands;
 using GameStore2.ModelContext;
 using GameStore2.Models;
@@ -58,9 +59,11 @@ namespace GameStore2.ViewModels
                         var user = db.User.Where(u => u.Login == currentLogin && u.Password == pb.Password).FirstOrDefault();
                         if (user != null)
                         {
-                            LoginData.CurrentUser.Id = user.Id;
-                            LoginData.CurrentUser.Login = user.Login;
-                            LoginData.CurrentUser.Mail = user.Mail;
+                            CurrentUser.Id = user.Id;
+                            CurrentUser.Login = user.Login;
+                            CurrentUser.Mail = user.Mail;
+                            CurrentUser.Avatar = user.Avatar;
+                            CurrentUser.Games = user.Games;
                             WindowsBuilder.ShowStoreWindow();
                             CloseWindow();
                         }

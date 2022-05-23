@@ -50,28 +50,28 @@ namespace GameStore2.ViewModels
             }
         }
 
-        /*private PasswordBox password1;
-        public PasswordBox Password1
+        /*private PasswordBox password;
+        public PasswordBox Password
         {
-            get { return password1; }
+            get { return password; }
             set
             {
-                password1 = value;
-                OnPropertyChanged("Password1");
+                password = value;
+                OnPropertyChanged("Password");
             }
-        }
+        }*/
 
-        private PasswordBox password2;
-        public PasswordBox Password2
+        /*private PasswordBox repeatPassword;
+        public PasswordBox RepeatPassword
         {
-            get { return password2; }
+            get { return repeatPassword; }
             set
             {
-                password2 = value;
-                OnPropertyChanged("Password2");
+                repeatPassword = value;
+                OnPropertyChanged("RepeatPassword");
             }
-        }
-        */
+        }*/
+
         private BaseCommands createNewUser;
         public BaseCommands CreateNewUser
         {
@@ -86,15 +86,30 @@ namespace GameStore2.ViewModels
                         string? password = pb.Password;
                         User? user = db.User.Where(u => u.Login == userLogin).FirstOrDefault();
 
+                        if (userLogin == null)
+                            MessageBox.Show("Введите логин!");
+
+                        if (userMail == null)
+                            MessageBox.Show("Введите почту!");
+
+                        if (password == null)
+                            MessageBox.Show("Введите пароль!");
+
+                        /*if (repeatPassword.Password == null)
+                            MessageBox.Show("Подтвердите пароль!");*/
+
                         if (!LoginData.CheckLogin(userLogin) ||
                         !LoginData.CheckMail(userMail) ||
                         !LoginData.CheckPassword(password))
                             MessageBox.Show("Данные введены неверно!");
 
+                        /*if (password != repeatPassword.Password)
+                            MessageBox.Show("Пароли не совпадают!");*/
+
                         if (user != null)
                             MessageBox.Show("Такой пользователь уже существует!");
 
-                        if (password != null)
+                        else
                         {
                             int maxId = db.User.Max(u => u.Id);
                             User newUser = new User(maxId + 1, userLogin, userMail, password, 0);
@@ -105,7 +120,6 @@ namespace GameStore2.ViewModels
                     }
                 }));
             }
-
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

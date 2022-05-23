@@ -81,6 +81,7 @@
                      materialDesign:TextFieldAssist.UnderlineBrush="#FF212121" 
                      FontSize="16"
                      Width="280" 
+                     Cursor="Arrow"
                      PasswordChanged="pb_Password1_PasswordChanged"/>
             <PasswordBox x:Name="pb_Password2"
                      Grid.Column="1" 
@@ -91,6 +92,7 @@
                      materialDesign:TextFieldAssist.UnderlineBrush="#FF212121" 
                      FontSize="16"
                      Width="280" 
+                     Cursor="Arrow"
                      PasswordChanged="pb_Password2_PasswordChanged"/>
             <Button x:Name="b_Reg"
                 Content="РЕГИСТРАЦИЯ" 

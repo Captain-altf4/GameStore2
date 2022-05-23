@@ -9,13 +9,6 @@ namespace GameStore2
 {
     public static class LoginData
     {
-        public struct CurrentUser
-        {
-            public static int Id { get; set; }
-            public static string Login { get; set; }
-            public static string Mail { get; set; }
-        }
-
         public static bool CheckLogin(string userLogin)
         {
             Regex rx = new Regex(@"^[a-zA-Z0-9-_]{3,32}$");

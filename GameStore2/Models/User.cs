@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Media.Imaging;
 
 namespace GameStore2.Models
 {
@@ -32,7 +33,8 @@ namespace GameStore2.Models
             Login = login;
             Mail = mail;
             Password = password;
-            Avatar = new byte[0];
+            BitmapImage image = new BitmapImage(new Uri("Image/Empty Avatar", UriKind.Relative));
+            Avatar = DataTransform.JpgToByte(image);
             Balance = balance;
             Games = new List<Game>();
         }

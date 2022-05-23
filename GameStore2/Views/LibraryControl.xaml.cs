@@ -61,7 +61,7 @@ namespace GameStore2.Views
                 //Add Games in Window
                 int columnNum = 1;
                 int rowNum = 1;
-                User currentUser = db.User.Where(u => u.Login == LoginData.CurrentUser.Login).FirstOrDefault();
+                User currentUser = db.User.Where(u => u.Login == CurrentUser.Login).FirstOrDefault();
                 foreach (Game game in currentUser.Games)
                 {
                     StackPanel sp = new StackPanel();
