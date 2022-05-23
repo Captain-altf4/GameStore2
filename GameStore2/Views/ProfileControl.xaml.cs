@@ -15,14 +15,16 @@ using System.Windows.Shapes;
 
 namespace GameStore2.Views
 {
-    /// <summary>
-    /// Логика взаимодействия для ProfileControl.xaml
-    /// </summary>
     public partial class ProfileControl : UserControl
     {
         public ProfileControl()
         {
             InitializeComponent();
+        }
+
+        void LoadAvatar()
+        {
+            i_Avatar.Source = DataTransform.ByteToJpg(CurrentUser.Avatar);
         }
     }
 }

@@ -12,6 +12,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="Images\Empty Avatar.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Images\Games\CSGO.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

@@ -33,7 +33,7 @@ namespace GameStore2.Models
             Login = login;
             Mail = mail;
             Password = password;
-            BitmapImage image = new BitmapImage(new Uri("Image/Empty Avatar", UriKind.Relative));
+            BitmapImage image = new BitmapImage(new Uri("Images/Empty_Avatar.png", UriKind.Relative));
             Avatar = DataTransform.JpgToByte(image);
             Balance = balance;
             Games = new List<Game>();
