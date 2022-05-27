@@ -4,10 +4,8 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Media.Imaging;
 using GameStore2.Commands;
 using GameStore2.ModelContext;
-using GameStore2.Models;
 
 namespace GameStore2.ViewModels
 {

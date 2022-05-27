@@ -50,28 +50,6 @@ namespace GameStore2.ViewModels
             }
         }
 
-        /*private PasswordBox password;
-        public PasswordBox Password
-        {
-            get { return password; }
-            set
-            {
-                password = value;
-                OnPropertyChanged("Password");
-            }
-        }*/
-
-        /*private PasswordBox repeatPassword;
-        public PasswordBox RepeatPassword
-        {
-            get { return repeatPassword; }
-            set
-            {
-                repeatPassword = value;
-                OnPropertyChanged("RepeatPassword");
-            }
-        }*/
-
         private BaseCommands createNewUser;
         public BaseCommands CreateNewUser
         {

@@ -1,17 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace GameStore2.Views
 {
@@ -20,10 +8,13 @@ namespace GameStore2.Views
         public ProfileControl()
         {
             InitializeComponent();
+            LoadUser();
         }
 
-        void LoadAvatar()
+        void LoadUser()
         {
+            l_Login.Content = CurrentUser.Login;
+            l_Balance.Content = CurrentUser.Balance + " р";
             i_Avatar.Source = DataTransform.ByteToJpg(CurrentUser.Avatar);
         }
     }

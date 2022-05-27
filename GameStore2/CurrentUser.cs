@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using GameStore2.Models;
 
 namespace GameStore2
@@ -11,6 +7,7 @@ namespace GameStore2
     {
         public static int Id { get; set; }
         public static string Login { get; set; }
+        public static int Balance { get; set; }
         public static string Mail { get; set; }
         public static byte[] Avatar { get; set; }
         public static List<Game> Games { get; set; }

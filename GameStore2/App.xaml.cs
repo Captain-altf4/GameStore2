@@ -23,14 +23,14 @@ namespace GameStore2
                 {
                     db.Database.Initialize(false);
                     // Код для удаления базы данных
-                    foreach (var u in db.User)
+                    /*foreach (var u in db.User)
                     {
                         db.User.Remove(u);
                     }
                     foreach (var g in db.Game)
                     {
                         db.Game.Remove(g);
-                    }
+                    }*/
                     db.SaveChanges();
                     if (db.User.Count() == 0 && db.Game.Count() == 0)
                     {

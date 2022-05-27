@@ -53,7 +53,8 @@
                     Grid.Row="1"
                     Background="#FF212121"
                     BorderBrush="#FF212121"
-                    Cursor="Hand"/>
+                    Cursor="Hand"
+                    Command="{Binding ChangeToProfileControl}"/>
         </Grid>
     </Grid>
 </Window>
