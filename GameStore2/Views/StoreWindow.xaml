@@ -39,7 +39,7 @@
                     Grid.Row="1"
                     Background="#FF212121"
                     BorderBrush="#FF212121"
-                    Cursor="Hand"/>
+                    Cursor="Hand" Click="b_Library_Click"/>
             <Button x:Name="b_Friends" 
                     Content="Друзья" 
                     Grid.Column="3" 
@@ -54,7 +54,7 @@
                     Background="#FF212121"
                     BorderBrush="#FF212121"
                     Cursor="Hand"
-                    Command="{Binding ChangeToProfileControl}"/>
+                    Command="{Binding ChangeToProfileControl}" Click="b_Profile_Click"/>
         </Grid>
     </Grid>
 </Window>

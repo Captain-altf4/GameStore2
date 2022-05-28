@@ -22,7 +22,7 @@ namespace GameStore2.Views
             {
                 //Creating Columns
                 List<ColumnDefinition> columns = new List<ColumnDefinition>();
-                int columnsCount = (int)this.Width / 220;
+                int columnsCount = 3;
 
                 for (int i = 0; i < columnsCount; i++)
                 {

@@ -21,37 +21,37 @@ namespace GameStore2.Custom_Controlls
 
         private void b_MinimizeBox_Click(object sender, RoutedEventArgs e)
         {
-            this.parent.WindowState = WindowState.Minimized;
+            parent.WindowState = WindowState.Minimized;
         }
 
         private void b_MaximizeBox_Click(object sender, RoutedEventArgs e)
         {
             if (!maximized)
             {
-                this.parent.WindowState = WindowState.Maximized;
+                parent.WindowState = WindowState.Maximized;
                 maximized = true;
             }
             else
             {
-                this.parent.WindowState = WindowState.Normal;
+                parent.WindowState = WindowState.Normal;
                 maximized = false;
             }
         }
 
         private void b_Close_Click(object sender, RoutedEventArgs e)
         {
-            this.parent.Close();
+            parent.Close();
         }
 
         private void UserControl_MouseDown(object sender, MouseButtonEventArgs e)
         {
             if (e.ChangedButton == MouseButton.Left)
-                this.parent.DragMove();
+                parent.DragMove();
         }
 
         private void UserControl_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
-            this.parent.WindowState = WindowState.Maximized;
+            parent.WindowState = WindowState.Maximized;
         }
     }
 }
