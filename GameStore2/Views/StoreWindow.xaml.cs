@@ -1,5 +1,4 @@
 ﻿using GameStore2.Custom_Controlls;
-using GameStore2.ViewModels;
 using System.Windows;
 using System.Windows.Controls;
 
@@ -8,8 +7,9 @@ namespace GameStore2.Views
     public partial class StoreWindow : Window
     {
         UserControl? currentControl;
-        ProfileControl? pc;
         LibraryControl? lc;
+        FriendsControl? fc;
+        ProfileControl? pc;
         public StoreWindow()
         {
             /*pc = null;
@@ -40,9 +40,7 @@ namespace GameStore2.Views
         private void b_Profile_Click(object sender, RoutedEventArgs e)
         {
             if (currentControl != null)
-            {
                 ContentGrid.Children.Remove(currentControl);
-            }
             pc = new ProfileControl();
             pc.SetValue(Grid.RowProperty, 2);
             pc.SetValue(Grid.ColumnProperty, 1);
@@ -54,14 +52,23 @@ namespace GameStore2.Views
         private void b_Library_Click(object sender, RoutedEventArgs e)
         {
             if (currentControl != null)
-            {
                 ContentGrid.Children.Remove(currentControl);
-            }
             lc = new LibraryControl();
             lc.SetValue(Grid.RowProperty, 2);
             lc.SetValue(Grid.ColumnProperty, 1);
             lc.SetValue(Grid.ColumnSpanProperty, 5);
             ContentGrid.Children.Add(lc);
+        }
+
+        private void b_Friends_Click(object sender, RoutedEventArgs e)
+        {
+            if (currentControl != null)
+                ContentGrid.Children.Remove(currentControl);
+            fc = new FriendsControl();
+            fc.SetValue(Grid.RowProperty, 2);
+            fc.SetValue(Grid.ColumnProperty, 1);
+            fc.SetValue(Grid.ColumnSpanProperty, 5);
+            ContentGrid.Children.Add(fc);
         }
     }
 }

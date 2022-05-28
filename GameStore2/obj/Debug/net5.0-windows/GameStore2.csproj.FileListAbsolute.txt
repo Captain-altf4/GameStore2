@@ -217,3 +217,5 @@ D:\Новая папка\GameStore2\GameStore2\obj\Debug\net5.0-windows\Views\Pr
 D:\Programs\C#\GameStore2\GameStore2\bin\Debug\net5.0-windows\Images\Empty Avatar.png
 D:\Programs\C#\GameStore2\GameStore2\obj\Debug\net5.0-windows\Views\ProfileControl.g.cs
 D:\Programs\C#\GameStore2\GameStore2\obj\Debug\net5.0-windows\Views\ProfileControl.baml
+D:\Новая папка\GameStore2\GameStore2\obj\Debug\net5.0-windows\Views\FriendsControl.g.cs
+D:\Новая папка\GameStore2\GameStore2\obj\Debug\net5.0-windows\Views\FriendsControl.baml

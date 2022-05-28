@@ -1,9 +1,6 @@
-﻿using GameStore2.Commands;
-using GameStore2.Views;
-using System;
+﻿using System;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
-using System.Windows.Controls;
 
 namespace GameStore2.ViewModels
 {
