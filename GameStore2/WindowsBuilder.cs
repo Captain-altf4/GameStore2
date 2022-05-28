@@ -1,6 +1,5 @@
 ﻿using GameStore2.ViewModels;
 using GameStore2.Views;
-using System.Windows.Controls;
 
 namespace GameStore2
 {
@@ -34,16 +33,6 @@ namespace GameStore2
             window.DataContext = viewModel;
             viewModel.EventCloseWindow += (sender, args) => { window.Close(); };
             window.Show();
-        }
-
-        public static void ShowProfileControl()
-        {
-            var window = new StoreWindow();
-            var control = new ProfileControl();
-            control.SetValue(Grid.RowProperty, 2);
-            control.SetValue(Grid.ColumnProperty, 1);
-            control.SetValue(Grid.ColumnSpanProperty, 5);
-            window.ContentGrid.Children.Add(control);
         }
     }
 }

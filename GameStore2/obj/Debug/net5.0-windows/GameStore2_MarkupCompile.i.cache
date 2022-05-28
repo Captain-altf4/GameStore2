@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 D:\Новая папка\GameStore2\GameStore2\App.xaml
-7-737681743
+81456793457
 
-222123040223
+231667753274
 198-420227473
-Custom Controlls\WindowBorder.xaml;Custom Controlls\WindowBorderMaximizeBox.xaml;Views\LibraryControl.xaml;Views\MainWindow.xaml;Views\ProfileControl.xaml;Views\RegWIndow.xaml;Views\StoreWindow.xaml;
+Custom Controlls\WindowBorder.xaml;Custom Controlls\WindowBorderMaximizeBox.xaml;Views\FriendsControl.xaml;Views\LibraryControl.xaml;Views\MainWindow.xaml;Views\ProfileControl.xaml;Views\RegWIndow.xaml;Views\StoreWindow.xaml;
 
-True
+False
 
